@@ -159,5 +159,6 @@ class TgdCrawler:
         self.driver.quit()
 
 crawler = TgdCrawler()
+crawler.crawl_posts()
 crawler.crawl_html()
 crawler.close()
