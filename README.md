@@ -4,7 +4,7 @@ backup htmls for hmsvocal tgd (https://tgd.kr/s/miacat1009)
 사용 방법
 
 ```shell
-pip install tgd-crawler/requirements.txt
+pip install -r tgd-crawler/requirements.txt
 python tgd-crawler/crawler.py
 python tgd-crawler/html-maker.py
 ```
